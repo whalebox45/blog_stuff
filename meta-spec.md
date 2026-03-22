@@ -1,8 +1,21 @@
-*Meta-Spec v2.0*
+*Meta-Spec v2.1*
 
 以下是Spec文件的範本，請依照下列格式撰寫。
 
-\[專案/功能名稱\]
+----
+Spec ID: [SYSTEM]-[MODULE]-[001]
+
+Status: [Draft / Review / Final]
+
+Title: [Title]
+
+Author: [Author name]
+
+Version: [Version ID]
+----
+
+
+## \[專案/功能名稱\]
 
 A standardized specification framework applied to \[請填寫：目標模組或功能的簡短描述\]. Defining exact I/O boundaries and logic before a single line of code is written.
 
@@ -72,7 +85,7 @@ Defining the explicit boundaries of data entry and side effects. (Crucial: Defin
 
 可以根據其他需求增減限制。
 
-## 
+
 
 ## **5\. Others**
 
