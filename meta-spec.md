@@ -1,4 +1,8 @@
-Meta-Spec v2.0: [專案/功能名稱]
+Meta-Spec v2.0
+
+以下是Spec文件的範本，請依照下列格式撰寫。
+
+[專案/功能名稱]
 
 A standardized specification framework applied to [請填寫：目標模組或功能的簡短描述]. Defining exact I/O boundaries and logic before a single line of code is written.
 
@@ -12,9 +16,9 @@ Spec ID: [SYSTEM]-[MODULE]-[001]
 
 Status: [Draft / Review / Final]
 
-Author: [Author]
+Author: [Author name]
 
-Version: [Version Id / Code name]
+Version: [Version ID]
 
 1.2 Scope & Dependencies (ENVIRONMENT)
 
@@ -66,6 +70,8 @@ Step 3: [步驟名稱，例如：Return / Dispatch]
 
 [描述最終的輸出動作，例如：回傳整理好的 JSON 或觸發特定的 Event 廣播。]
 
+可以根據步驟的複雜程度來增減步驟。
+
 4. Implementation Constraints (Meta)
 
 [此區塊定義 AI 或開發者在實作時必須嚴格遵守的 Coding Style 與架構限制]
@@ -79,3 +85,9 @@ Paradigm: [e.g., 強制使用 Functional Programming，禁止修改全域變數]
 Naming Convention: [e.g., 變數使用 camelCase，常數使用 UPPER_SNAKE_CASE]
 
 Error Handling: [e.g., 遇到錯誤時回傳 { success: false, error: "..." } 而非直接 Throw Error]
+
+可以根據其他需求增減限制。
+
+5. Others
+
+所有項目的所有e.g.只是範例，不應該只能按照e.g.撰寫，而是視需求設計。
