@@ -3,6 +3,7 @@
 以下是Spec文件的範本，請依照下列格式撰寫。
 
 ----
+
 Spec ID: [SYSTEM]-[MODULE]-[001]
 
 Status: [Draft / Review / Final]
@@ -12,6 +13,7 @@ Title: [Title]
 Author: [Author name]
 
 Version: [Version ID]
+
 ----
 
 
